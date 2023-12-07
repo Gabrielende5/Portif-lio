@@ -64,7 +64,7 @@ body {
 /* Início parte 1 - Home */
 #person { /* "#" pois é id */  
     
-    height: 100vh;  /* o "100vh" é 100% da tela */  
+    height: 100vh;  /* o "vh" está relacionado à área visívil, ou seja, seria uma porcetagem */  
     width: 100%;
     background-color: var(--color-black);
     display: flex;
@@ -204,7 +204,7 @@ body {
     opacity: .7;
     z-index: -1;  /* esse "z-index" fala a hierarquia de quem fica em cima de quem, sendo que o padrão é 0 */  
     background: 
-        linear-gradient(90deg /* deg = graus */ , transparent 30%, var(--color-black))
+        linear-gradient(90deg /* deg = graus */ , transparent 30%, var(--color-black)) /* Comando que faz o efeito degrade */
 }
 .wrapper-profile-photo {
     display: flex;
@@ -501,3 +501,5 @@ body {
 }
 /* Dica de teclas utilizadas: 
 Alt + Shift + seta para baixo -> tecla utilizada para dar um ctrl C + ctrl V mais rápido*/
+
+
